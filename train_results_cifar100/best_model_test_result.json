@@ -1,0 +1,19 @@
+{
+    "test_accuracy": 0.8253,
+    "total_samples": 10000,
+    "correct_samples": 8253,
+    "data_mean": [
+        0.5070751309394836,
+        0.48654890060424805,
+        0.44091781973838806
+    ],
+    "data_std": [
+        0.20089654624462128,
+        0.19844314455986023,
+        0.2022971659898758
+    ],
+    "num_epochs": 20,
+    "batch_size": 64,
+    "device": "cuda",
+    "total_misclassified_samples": 1747
+}

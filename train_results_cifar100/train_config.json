@@ -1,0 +1,26 @@
+{
+    "batch_size": 64,
+    "data_root": "./data",
+    "val_split": 0.1,
+    "num_epochs": 20,
+    "learning_rate": 0.002,
+    "accumulation_steps": 1,
+    "optimizer": "SGD (momentum=0.9, weight_decay=0.0003)",
+    "scheduler": "CosineAnnealingLR (warmup=2epochs, T_max=18)",
+    "save_dir": "./train_results_cifar100",
+    "loss_function": "CrossEntropyLoss",
+    "device": "cuda",
+    "dataset": "CIFAR100",
+    "model": "ResNet18 (transfer learning)",
+    "mean": [
+        0.5070751309394836,
+        0.48654890060424805,
+        0.44091781973838806
+    ],
+    "std": [
+        0.20089654624462128,
+        0.19844314455986023,
+        0.2022971659898758
+    ],
+    "start_time": "2026-02-26 10:53:52"
+}
